@@ -5,7 +5,7 @@ const ColorBox = (props) => {
     return <div className='ColorBox' 
     style={{backgroundColor: `${props.color}`}}
     onClick={() => props.clickedColor(props.color)}>
-        {props.color}
+        {/* {props.color} */}
     </div>
 }
 
