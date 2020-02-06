@@ -31,7 +31,6 @@ class ColorBoxes extends Component {
     }
 
     renderColors = () => {
-        
         return this.state.colors.map(c => 
         <div key={c}><ColorBox color={c} clickedColor={this.clickedColor}/></div>)
     }
@@ -42,7 +41,6 @@ class ColorBoxes extends Component {
         for(let i=0; i < 21; i++) {
             colorKey = this.randomColorGenerator()
             colors.push(colorKey)
-            
         }
         this.setState({ colors: colors  });
     }
